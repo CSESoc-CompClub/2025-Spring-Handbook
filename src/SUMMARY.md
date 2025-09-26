@@ -1,4 +1,5 @@
 # Summary
+-  [💾 DAY 1 - BREAKING GAME SAVES](2_breaking_game_saves/main.md)
 - [❄️ DAY 1 - INTRO TO JAVASCRIPT ❄️](1_day_1_javascript/main.md)
     - [💻 Setup](1_day_1_javascript/1_1_setup/1_1_setup.md)
     - [🎯 JS Fundamentals](1_day_1_javascript/1_2_js_fundamentals/1_2_fundamentals.md)
