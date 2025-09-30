@@ -160,7 +160,7 @@ html.scifi, body.scifi {
   }
   
   html.scifi, body.scifi {
-    /* background-image: url("../winter.jpg"); */
+    background-image: url("../ship-background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
