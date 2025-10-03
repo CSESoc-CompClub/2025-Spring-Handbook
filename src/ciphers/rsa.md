@@ -68,6 +68,7 @@ What will the encrypted message look like (ciphertext)?
 Bob’s private key is **d = 27** (with n = 55).
 He receives ciphertext **9**.
 What is the message, m?
+Hint (use this calculator for large values: https://www.wolframalpha.com)
 
 **Try to solve before opening the answer!**
 
