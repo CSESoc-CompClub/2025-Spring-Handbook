@@ -23,18 +23,72 @@ while keeping your private key secret.
 
 ---
 
-## How Does RSA Work? (Simple Version)
+## How Does RSA Work? (Simplified)
 1. Pick two prime numbers (For this example we will use 5 and 11)
-2. Multiply them together (5 × 11 = 55).
-3. Choose a **public exponent** (we will choose 3).
-4. Work out a **private exponent** (this is quite difficult to do but in this case, 27 will work).
-5. To encrypt: Raise message to the public exponent, then mod by 55.
-6. To decrypt: Raise ciphertext to the private exponent, mod by 55.
+2. Multiply them together (n = 5 × 11 = 55).
+3. Choose a **public exponent** (we will choose e = 3).
+4. Work out a **private exponent** (this is quite difficult to do but in this case, d = 27 will work).
+5. We will chose 9, as our message.
+6. To encrypt: Raise message to the public exponent, then mod by 55. (9^3 mod 55) = 14
+7. To decrypt: Raise ciphertext to the private exponent, mod by 55. (14^27 mod 55) = 9 which was our message!
 
 ---
 
 ## Practice Task
 
 ### Task 1: Encryption
-Bob’s RSA public key is **(n = 55, e = 3)**.
+Bob’s RSA public key is n = 55, e = 3.
 Alice wants to send him the number **4**.
+What will the encrypted message look like (ciphertext)?
+
+**Try to solve before opening the answer!**
+
+<details>
+  <summary>Show Answer</summary>
+
+  **Step 1:** formula
+  `ciphertext = message^e mod n`
+
+  **Step 2:** plug in numbers
+  `ciphertext = 4^3 mod 55`
+
+  **Step 3:** calculate the power
+  `4^3 = 64`
+
+  **Step 4:** calculate 64 mod 55
+  `64 mod 55 = 9`
+
+  **Encrypted message = 9**
+
+</details>
+
+---
+
+### Task 2: Decryption
+Bob’s private key is **d = 27** (with n = 55).
+He receives ciphertext **9**.
+What is the message, m?
+
+**Try to solve before opening the answer!**
+
+<details>
+  <summary>Show Answer</summary>
+
+   **Step 1:** formula
+  `message = ciphertext^d mod n`
+
+  **Step 2:** plug in numbers
+  `message = 9^27 mod 55`
+
+  **Step 3:** calculate the power (we will need a powerful online calculator like wolfram alpha:
+  https://www.wolframalpha.com/input?i=9%5E27)
+  `9^27 = 58149737003040059690390169`
+
+  **Step 4:** calculate 58149737003040059690390169 mod 55 (we will also use wolframalpha:
+  https://www.wolframalpha.com/input?i=58149737003040059690390169+mod+55)
+
+  `58149737003040059690390169 mod 55 = 4`
+
+  **Decrypted message = 4**
+
+</details>
