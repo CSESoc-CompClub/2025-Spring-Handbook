@@ -36,12 +36,12 @@ Oek adem jxqj vuubydw oek wuj mxud oekhu ijqdtydw yd q xywx fbqsu... ikttud khwu
 <div id="result2"></div>
 
 ### Cipher 3
-Liztqvo, pwtl ug pivl. Vwbpqvo jmiba i Rmb bew pwtqlig, ivl zqopb vwe gwc kiv aidm nqnbg xwcvla xmz xmzawv. Bpib’a bew pcvlzml xwcvla wnn nwz i niuqtg wn nwcz.
+Liztqvo, pwtl ug pivl. Vwbpqvo jmiba i Rmb bew pwtqlig, ivl zqopb vwe gwc kiv aidm nqnbg xwcvla xmz xmzawv. Bpiba bew pcvlzml xwcvla wnn nwz i niuqtg wn nwcz.
 
 <!-- Shift: 3 -->
 <div class="answer-box">
     <input class="answer-input" type="text" id="answerinput3" placeholder="Enter your answer">
-    <button class="answer-button" onclick="checkAnswer('answerinput3', 'result3', 'Liztqvo pwtl ug pivl Vwbpqvo jmiba i Rmb bew pwtqlig ivl zqopb vwe gwc kiv aidm nqnbg xwcvla xmz xmzawv Bpiba bew pcvlzml xwcvla wnn nwz i niuqtg wn nwcz')">Check Answer</button>
+    <button class="answer-button" onclick="checkAnswer('answerinput3', 'result3', 'RGFybGluZywgaG9sZCBteSBoYW5kLiBOb3RoaW5nIGJlYXRzIGEgSmV0IHR3byBob2xpZGF5LCBhbmQgcmlnaHQgbm93IHlvdSBjYW4gc2F2ZSBmaWZ0eSBwb3VuZHMgcGVyIHBlcnNvbi4gVGhhdHMgdHdvIGh1bmRyZWQgcG91bmRzIG9mZiBmb3IgYSBmYW1pbHkgb2YgZm91ci4=')">Check Answer</button>
 </div>
 
 <div id="result3"></div>
@@ -66,7 +66,8 @@ Liztqvo, pwtl ug pivl. Vwbpqvo jmiba i Rmb bew pwtqlig, ivl zqopb vwe gwc kiv ai
             result.textContent = '✓ Correct Answer!';
         } else {
             result.className = 'incorrect';
-            result.textContent = '✗ Incorrect. Try again!';
+            // result.textContent = '✗ Incorrect. Try again!';
+            result.textContent = correctAnswer;
         }
 
         result.style.display = 'block';
