@@ -1,4 +1,4 @@
-# 🔑 ASYMMETRIC ENCRYPTION & RSA 🔑
+# ASYMMETRIC ENCRYPTION & RSA
 
 ## What Makes It *Asymmetric*?
 
@@ -15,11 +15,11 @@ while keeping your private key secret.
 
 
 ## Why Do We Need RSA?
-- Symmetric ciphers (like Substitution or Caesar) need both people to share the **same secret key**.
+- Symmetric ciphers (like Substitution or Caesar) need both people to share the same secret key.
 - But how do we share that key securely over the internet?
 - This is a big problem for symmetric encryption schemes.
-- RSA solves this by letting you publish your **public key** so anyone can encrypt messages to you.
-- Only your **private key** can decrypt it.
+- RSA solves this by letting you publish your public key so anyone can encrypt messages to you.
+- Only your secret private key can decrypt it.
 
 ---
 
@@ -29,17 +29,17 @@ while keeping your private key secret.
 3. Choose a **public exponent** (we will choose e = 3).
 4. Work out a **private exponent** (this is quite difficult to do but in this case, d = 27 will work).
 5. We will chose 9, as our message.
-6. To encrypt: Raise message to the public exponent, then mod by 55. (9^3 mod 55) = 14
-7. To decrypt: Raise ciphertext to the private exponent, mod by 55. (14^27 mod 55) = 9 which was our message!
+6. To encrypt: Raise message to the public exponent, then mod by 55. c = (9^3 mod 55) = 14
+7. To decrypt: Raise ciphertext to the private exponent, mod by 55. m = (14^27 mod 55) = 9 which was our message!
 
 ---
 
 ## Practice Task
 
 ### Task 1: Encryption
-Bob’s RSA public key is n = 55, e = 3.
-Alice wants to send him the number **4**.
-What will the encrypted message look like (ciphertext)?
+Bob’s RSA public key, n = 55 and public exponent, e = 3.
+Alice wants to send him the message, m = 4.
+What is the ciphertext? (encrypted message)
 
 **Try to solve before opening the answer!**
 
@@ -58,16 +58,16 @@ What will the encrypted message look like (ciphertext)?
   **Step 4:** calculate 64 mod 55
   `64 mod 55 = 9`
 
-  **Encrypted message = 9**
+  **Ciphertext = 9**
 
 </details>
 
 ---
 
 ### Task 2: Decryption
-Bob’s private key is **d = 27** (with n = 55).
-He receives ciphertext **9**.
-What is the message, m?
+Bob’s private key, d = 27 and public exponent, n = 55.
+He receives ciphertext, c = 9.
+What is the hidden message, m?
 Hint (use this calculator for large values: https://www.wolframalpha.com)
 
 **Try to solve before opening the answer!**
