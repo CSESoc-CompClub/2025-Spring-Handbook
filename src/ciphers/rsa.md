@@ -38,11 +38,3 @@ while keeping your private key secret.
 ### Task 1: Encryption
 Bob’s RSA public key is **(n = 55, e = 3)**.
 Alice wants to send him the number **4**.
-
-👉 Encrypt it (hint: 4³ mod 55).
-
-
-```html
-<input type="text" id="rsa1" />
-<button onclick="checkAnswer('rsa1', 'rsa1result', 'OQ==')">Check Answer</button>
-<p id="rsa1result" style="display:none;"></p>
