@@ -6,6 +6,7 @@
       - [🧑‍🍳 Cyberchef](2_breaking_game_saves/2_2_decoding_encoding_save_files/2_2_1_using_cyberchef.md)
       - [💻 Decoding Basics](2_breaking_game_saves/2_2_decoding_encoding_save_files/2_2_2_decoding_with_cyberchef.md)
       - [🔍 Encoding Save Files](2_breaking_game_saves/2_2_decoding_encoding_save_files/2_2_3_encoding_with_cyberchef.md)
+      - [📦 Data Compression and File Formats](2_breaking_game_saves/2_2_decoding_encoding_save_files/2_2_4_data_compression.md)
 
 
 
