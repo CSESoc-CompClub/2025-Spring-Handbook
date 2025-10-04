@@ -7,11 +7,7 @@
       - [🧑‍🍳 Cyberchef](2_breaking_game_saves/2_2_decoding_encoding_save_files/2_2_1_using_cyberchef.md)
       - [💻 Decoding Basics](2_breaking_game_saves/2_2_decoding_encoding_save_files/2_2_2_decoding_with_cyberchef.md)
       - [🔍 Encoding Save Files](2_breaking_game_saves/2_2_decoding_encoding_save_files/2_2_3_encoding_with_cyberchef.md)
-
-
-
-
-
+    - [🕵️ Deduction Tricks](2_breaking_game_saves/2_3_deduction_tricks.md)
 - [❄️ DAY 1 - INTRO TO JAVASCRIPT ❄️](1_day_1_javascript/main.md)
     - [💻 Setup](1_day_1_javascript/1_1_setup/1_1_setup.md)
     - [🎯 JS Fundamentals](1_day_1_javascript/1_2_js_fundamentals/1_2_fundamentals.md)
