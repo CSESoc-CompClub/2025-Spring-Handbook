@@ -1,26 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
 
 html.scifi, body.scifi {
     font-family: "Nunito", "Ubuntu", sans-serif;
     background-color: #0a0f1c;
-    color: #e0e0ff;
+    color: #ffe0e0;
   }
 
   /* Fonts */
   html.scifi, body.scifi {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Texturina';
     font-size: 10px;
     line-height: 1.6;
     color: var(--fg);
   }
   
   .scifi h1, .scifi h2, .scifi h3, .scifi h4 {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pirata One';
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #a882ff;
-    text-shadow: 0 0 6px #a882ff66;
+    color: black;
+    text-shadow: 0 0 6px red;
   }
   
   .scifi pre, .scifi code {
@@ -29,13 +29,13 @@ html.scifi, body.scifi {
 
   /* Sidebar */
   .scifi .sidebar {
-    background: linear-gradient(180deg, #140a28, #1b0e3f);
+    background: linear-gradient(180deg, #760a0a, #5e2a0e);
     color: #c8c9db;
     border-right: 1px solid #362f59;
   }
   
   .scifi .sidebar a {
-    color: #a882ff;
+    color: black;
   }
   
   .scifi .sidebar a:hover {
@@ -49,8 +49,8 @@ html.scifi, body.scifi {
   
   /* Headings */
   .scifi h1, .scifi h2, .scifi h3, .scifi h4 {
-    color: #a882ff;
-    text-shadow: 0 0 5px rgba(168, 130, 255, 0.3);
+    color: #760a0a;
+    text-shadow: 0 0 5px rgba(255, 130, 140, 0.3);
   }
   
   /* Inline code */
@@ -115,8 +115,8 @@ html.scifi, body.scifi {
   }
   
   .scifi a:hover {
-    color: #a882ff;
-    text-shadow: 0 0 8px #a882ff66;
+    color: #ff8282;
+    text-shadow: 0 0 8px #ff828263;
   }
   
   /* Scrollbar */
@@ -124,11 +124,11 @@ html.scifi, body.scifi {
     width: 8px;
   }
   .scifi ::-webkit-scrollbar-thumb {
-    background: #444866;
+    background: #664444;
     border-radius: 4px;
   }
   .scifi ::-webkit-scrollbar-thumb:hover {
-    background: #a882ff;
+    background: #ff8282;
   }
   
   /* Table Styling */
@@ -143,20 +143,20 @@ html.scifi, body.scifi {
   }
   .scifi th {
     background-color: #29294b;
-    color: #a882ff;
+    color: #ff8282;
   }
   
   /* Footnotes */
   .scifi .footnote {
     background-color: #1b1e2e;
-    border-left: 3px solid #a882ff;
+    border-left: 3px solid red;
     padding: 0.5em;
     margin-top: 1em;
   }
   
 
   .scifi h1, .scifi h2 {
-    text-shadow: 0 0 8px #a882ff66;
+    text-shadow: 0 0 8px #ff828266;
   }
   
   html.scifi, body.scifi {
@@ -187,7 +187,7 @@ html.scifi, body.scifi {
 .answer-button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #4CAF50;
+  background-color: #5e2a0e;
   color: white;
   border: none;
   border-radius: 5px;
@@ -195,7 +195,7 @@ html.scifi, body.scifi {
 }
 
 .answer-button:hover {
-  background-color: #45a049;
+  background-color: #ddd417;
 }
 
 .correct {

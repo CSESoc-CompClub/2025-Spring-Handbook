@@ -4,6 +4,7 @@
   - [🔒 CAESAR CIPHER](ciphers/caesar_cipher.md)
   - [🕵️ SUBSTITUTION CIPHERS](ciphers/3_substitution_ciphers.md)
   - [⌛ VIGENERE CIPHERS](ciphers/5_vigenere_ciphers.md)
+  - [💀 RSA](ciphers/rsa.md)
 
 -  [💾 DAY 1 - BREAKING GAME SAVES](2_breaking_game_saves/main.md)
     - [🗺️ Locating Save Files](2_breaking_game_saves/2_1_locating_save_files/2_1_locating_save_files.md)
