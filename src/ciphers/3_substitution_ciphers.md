@@ -3,6 +3,8 @@ Substitution ciphers are where one character is replaced by another character.
 
 ## Frequency & Word Analysis
 <a href="https://brianveitch.com/websites/cryptography/random.html" target="_blank">Decryption helper website</a>
+<a href="https://webspace.maths.qmul.ac.uk/b.noohi/MTH6115/SubTool.html" target="_blank">Decryption helper website from the lecture</a>
+
 
 <a href="https://www.boxentriq.com/code-breaking/frequency-analysis" target="_blank">Frequency analysis website</a>
 
