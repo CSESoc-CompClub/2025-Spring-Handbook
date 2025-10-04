@@ -16,7 +16,7 @@ Usually these are based off a phrase or word.
 
 ## Examples
 
-Hint: The keys for all of these are four letters.
+Attempt if you dare!
 
 1. G xuzc fa vm fa rmybrjgn lmdwhfabh yzp wyhq usz! Fwge ytqemvc ue hsbqg jazv ra majai icotcgcgtq.
 2. O pir ibcrz gw xka! Wrk ges zuzik swyx sqzk fqb yrdit rqkng vmtr bit.
