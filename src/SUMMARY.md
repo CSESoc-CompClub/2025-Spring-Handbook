@@ -22,3 +22,4 @@
   - [🍪 Cookies](3_day_3_web_attacks/cookies.md)
   - [🤑 IDOR](3_day_3_web_attacks/idor.md)
   - [🔥 Local Storage](3_day_3_web_attacks/localstorage.md)
+  - [🧠 SQL Injection](3_day_3_web_attacks/SQLI.md)
