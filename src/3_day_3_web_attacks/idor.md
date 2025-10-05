@@ -5,7 +5,7 @@
 
 ## How IDOR Works
 
-IDOR vulnerabilities typically occur when an application do not check the user has access to a certain thing before giving them access. This can be very dangerous.
+IDOR vulnerabilities typically occur when an application does not check the user has access to a certain thing before giving them access. This can be very dangerous.
 
 > [!TIP] Examples
 > For example, consider a url that you may have seen before in the past:
