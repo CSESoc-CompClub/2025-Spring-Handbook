@@ -20,15 +20,13 @@ IDOR vulnerabilities typically occur when an application exposes internal object
 >
 > ## IDOR vulnerabilities can be found in various contexts:
 >
-> TODO: add some hints here
->
 > - **User profiles**: `/user/profile?id=456`
 > - **File downloads**: `/download?file=document123.pdf`
 > - **API endpoints**: `/api/users/789/messages`
 > - **Database records**: `/invoice?invoice_id=ABC123`
+> - **Support tickets**: `/ticket/14`
 
 > [!SUCCESS] Tasks
-> The tasks for this activity are to exploit the IDOR vulnerabilities present on the site (add link here).
 >
 > 1. Find out what page could potentially lead to what we just mentioned.
 > 2. After you discover the vulnerability, see what you can do with it. What additional information can you find out?
