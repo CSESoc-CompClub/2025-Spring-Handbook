@@ -12,12 +12,10 @@ Think of a database like a giant dictionary. You can look things up, and pull in
 The issue begins when we perform queries like 'Give me all the users that ...' and the user is able to inject their custom phrases into that sentence. For example, the attacker might say 'have a username of 'bob''. Then, without checking, the computer would execute the query 'Give me all the users that have a username of bob'.
 
 > [!TIP] Common SQL Injection Patterns
-> Here are 3 of the most common SQL injection attack patterns:
+> Here is the most common SQL Injection pattern... This may come in handy for the tasks.
 >
 > ```sql
-> ' OR '1'='1' --
-> ' DROP Users;--
-> ' AND 1=1 --
+> ' OR '1'='1'
 > ```
 
 > [!SUCCESS] Tasks
