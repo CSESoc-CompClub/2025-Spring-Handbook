@@ -10,7 +10,7 @@
 >
 > - Anybody can manipulate local storage. Cannot store any sensitive information.
 > - Size limitation - Can only store 5MB.
-> - Possiblity of leaking sensitive information.
+> - Possibility of leaking sensitive information.
 > - [Cross site scripting attacks](https://shahjerry33.medium.com/xss-the-localstorage-robbery-d5fbf353c6b0)
 
 > [!SUCCESS] Tasks.

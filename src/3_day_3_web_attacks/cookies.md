@@ -1,7 +1,7 @@
 # Cookies
 
 > [!INFO] What are cookies?
-> Cookies are a small piece of data that browsers use to identify you. It allows it to remember information like your browsing history, shopping cart items, whether you were logged in or not, and site preferences, and are not neccesarrily bad.
+> Cookies are a small piece of data that browsers use to identify you. It allows it to remember information like your browsing history, shopping cart items, whether you were logged in or not, and site preferences, and are not necessarily bad.
 
 ### Cookies can sometimes store a special kind of token (JWT tokens), like a special id that is used for authentication. If you could somehow trick the computer to think you are someone else, then you could gain access to their account.
 
