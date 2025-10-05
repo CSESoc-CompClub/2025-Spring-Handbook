@@ -5,7 +5,7 @@
 
 ## How IDOR Works
 
-IDOR vulnerabilities typically occur when an application exposes internal object references (like database keys, filenames, or user IDs) in URLs, form parameters, or API endpoints without proper authorization checks.
+IDOR vulnerabilities typically occur when an application do not check the user has access to a certain thing before giving them access. This can be very dangerous.
 
 > [!TIP] Examples
 > For example, consider a url that you may have seen before in the past:
