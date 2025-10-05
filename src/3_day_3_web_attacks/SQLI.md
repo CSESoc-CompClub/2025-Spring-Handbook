@@ -5,7 +5,7 @@
 
 ## What is SQL?
 
-SQL stands for Structured Query Language, and you can think it of as another programming language that allows us to get information out of a 'database'.
+SQL stands for Structured Query Language, and you can think of it as another programming language that allows us to get information out of a 'database'.
 
 Think of a database like a giant dictionary. You can look things up, and pull information. Say you wanted to look up 'all the words that began with the letter K'. This is something that you could do with SQL.
 
